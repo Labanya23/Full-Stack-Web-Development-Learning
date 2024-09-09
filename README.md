@@ -1,2 +1,1 @@
-# Full-Stack-Web-Development-Learning
-FROM AUGEST, 2024
+# Full-Stack-Web-Development-learning
