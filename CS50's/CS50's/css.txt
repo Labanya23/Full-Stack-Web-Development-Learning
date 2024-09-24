@@ -1,0 +1,41 @@
+Specificity:
+
+1.inline
+2.id
+3.class
+4.type
+
+<div id="foo">
+  Hello!
+</div>
+
+div{
+    color:blue;
+}
+
+#foo{
+    color:red;
+}
+id is most specific for it color will be red
+
+a,b ---- Multiple element select
+a b ------Descendent Selector
+a>b ------Child Selector
+a + b -------Adjacent Sibling Selector
+[a=b]-------Attribute Selector
+a:b ----Pseudoclass Selectora
+a: :b-----Pseudoelement Selector
+
+
+Responsive design
+
+.viewport
+.media queries
+.flexbox
+.grids
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0>
+
+Media queries:
+.media types: print,screen,....
+.meddia freatures: height,width,orientation
