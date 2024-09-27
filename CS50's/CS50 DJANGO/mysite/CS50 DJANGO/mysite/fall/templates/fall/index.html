@@ -1,0 +1,33 @@
+<!--
+DOCTYPE html
+<html lang="en"
+    <head>
+        <title>Fall</title>
+    </head>
+    <body>
+        <ul>
+            
+            <li>Item one</li>
+            <li>item two</li>
+            <li>item three</li>
+        
+            {% for task in tasks %}
+                <li>{{ task }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
+-->
+{% extends "fall/layout.html"  %}
+{% block body %}
+<h1>Task</h1>
+
+  <ul>
+    {% for task in tasks %}
+       <li>{{tasks}}</li>
+    {% endfor %}
+  </ul>
+  <!--a href="/tasks/add">Add a new task</a-->
+  <a href="{% url 'tasks:add' %}">Add a new task</a>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+<!--DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fall</title>
+    </head>
+    <body>
+        <h1>add task</h1>
+        <form>
+            <input type="text" name="task">
+            <input type="submit">
+        </form>
+    </body>
+</html>
+-->
+{% extends "fall/layout.html" %}
+{% block body %}
+
+    <h1>Add task</h1>
+    <form action="{% url 'tasks:add' %}" method="post">
+        {% csrf token %}
+        {{form}}
+        <input type="text" name="task">
+        <input type="submit">
+    </form>
+    <a href="{% url 'index' %}"view task></a>
+    {% endblock %}
