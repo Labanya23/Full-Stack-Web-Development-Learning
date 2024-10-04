@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Colours</title>
+    <script>
+       // document.addElementListener('DOMContentLoaded',function(){
+            //document.querySelectorAll('button').forEach(function(button){
+                //button.onclick = function(){
+                    //document.querySelector('#hello').sylte.color=button.dataset.color;
+                //}
+            //});
+        //});
+        document.addEventListener('DOMContestLoaded',() =>{
+            document.querySelector('select').onchange = function(){
+                document.querySelector('#hello').style.color = this.value;
+            }
+        });
+             //document.querySelector('select')
+
+    </script>
+    </head>
+    <body>
+        <h1 id="hello">Hello</h1>
+        <!--button data-color="red">Red</button>
+        <button data-color="blue">BLUE</button>
+        <button data-color="green">Green</button-->
+
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+    </body>
+</html>
+
+/*
+document.addEventListener('DOMContentLoaded',()=>{
+    document.querySelectorAll('button').forEach(button =>{
+        button.onclick = function(){
+            document.querySelector('#hello').style.color=button.dataset.color;
+        }
+    })
+})
+
+*/

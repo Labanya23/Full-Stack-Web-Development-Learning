@@ -1,0 +1,7 @@
+onclick
+onmouseover
+onekeydown
+onekeyup
+onload
+onblur
+. . .

@@ -1,0 +1,27 @@
+{
+    "origin": "New York",
+    "destination": "London";
+    "duration": 415
+}
+{
+"origin":{
+    "city":"New York"
+    "code":"JFK"
+},
+
+"destination":{
+    "city":"London",
+    "code":"LHR"
+},
+"duration":415
+}
+{
+
+    "rates":{
+        "EUR": 0.907,
+        "JPY": 109.716,
+        "GBR": 0.766,
+        "AUD": 1.479
+    },
+    "base":"USD"
+}

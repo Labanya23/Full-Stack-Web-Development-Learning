@@ -1,0 +1,3 @@
+document.queryselector('tags')
+document.queryselector('#id')
+document.queryselector('.class')

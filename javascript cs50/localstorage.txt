@@ -1,0 +1,2 @@
+localstorage.getItem(key)
+localStorage.setItem(key,value)
